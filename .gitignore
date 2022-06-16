@@ -3,3 +3,6 @@
 
 # Logs
 *.log
+
+# Keys
+id_rsa
