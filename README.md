@@ -1,54 +1,61 @@
 # Vagrant Hands On
 
-## Initialize `Vagrantfile`
+## Prerequisites
+
+ - VirtualBox
+ - Vagrant
+
+## Commands
+
+### Initialize `Vagrantfile`
 
 ```bash
 vagrant init BOX_NAME
 ```
 
-## Create/start VM
+### Create/start VM
 
 ```bash
 vagrant up
 ```
 
-## Get VMs status
+### Get VMs status
 
 ```bash
 vagrant status
 ```
 
-## Get global VMs status
+### Get global VMs status
 
 ```bash
 vagrant global-status --prune
 ```
 
-## Reload VM
+### Reload VM
 
 ```bash
 vagrant reload
 ```
 
-## Shutdown VM
+### Shutdown VM
 
 ```bash
 vagrant halt
 ```
 
-## Destroy VM
+### Destroy VM
 
 ```bash
 vagrant destroy
 ```
 
-## Show SSH config
+### Show SSH config
 
 ```bash
 vagrant ssh-config
 ```
 
-## Access using SSH
+### Access using SSH
 
 ```bash
 vagrant ssh
